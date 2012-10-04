@@ -15,3 +15,4 @@ nmap 7 :vertical res-5<CR>
 nmap 8 :vertical res+5<CR>
 nmap 9 :res-5<CR>
 nmap 0 :res+5<CR>
+nmap <Tab> <C-w>w
