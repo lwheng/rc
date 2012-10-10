@@ -21,6 +21,12 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # For Yesod/Haskell
 export PATH="$HOME/Library/Haskell/bin:$PATH"
 
+# MacPorts Bash shell command completion
+if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
+  . /opt/local/etc/profile.d/bash_completion.sh
+fi
+
+alias slowstartup='cd /private/var/log/asl; sudo rm -rf *; cd -'
 alias sunfire='ssh lwheng@sunfire.comp.nus.edu.sg'
 alias sadm='ssh sadm@lwheng-z.comp.nus.edu.sg'
 alias wing='ssh lwheng@wing.comp.nus.edu.sg'
