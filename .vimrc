@@ -11,6 +11,7 @@ set modeline
 set ls=2
 colorscheme delek
 set statusline+=%F
+set hlsearch
 nmap 7 :vertical res-5<CR>
 nmap 8 :vertical res+5<CR>
 nmap 9 :res-5<CR>
