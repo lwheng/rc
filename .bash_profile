@@ -35,5 +35,6 @@ alias tembusu='ssh lwheng@tembusu.comp.nus.edu.sg'
 alias starwars='telnet towel.blinkenlights.nl'
 alias vlc='open -a VLC'
 alias gph='RAILS_ENV=production bundle exec rake assets:precompile && git push heroku'
+alias :q='exit'
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
