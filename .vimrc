@@ -5,6 +5,7 @@ nmap 9 :res-5<CR>
 nmap <Tab> <C-w>w
 colorscheme darkblue
 set expandtab
+set hlsearch
 set list
 set listchars=eol:~
 set ls=2
