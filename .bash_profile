@@ -13,6 +13,7 @@ export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 # this is for the Android SDK 
 export PATH=${PATH}:/Users/lwheng/Downloads/android-sdk-mac_x86/tools:/Users/lwheng/Downloads/android-sdk-mac_x86/platform-tools
+export ANDROID_HOME=/Users/lwheng/Development/adt-bundle-mac/sdk
 
 # MacPorts Installer addition on 2011-10-04_at_15:38:11: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
