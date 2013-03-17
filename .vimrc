@@ -16,4 +16,6 @@ set shiftwidth=2
 set smartindent
 set statusline+=%F
 set tabstop=2
+set ruler
+filetype plugin on
 syntax on
