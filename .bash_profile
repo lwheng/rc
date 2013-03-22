@@ -28,11 +28,7 @@ if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
 fi
 
 alias slowstartup='cd /private/var/log/asl; sudo rm -rf *; cd -'
-alias sunfire='ssh lwheng@sunfire.comp.nus.edu.sg'
-alias sadm='ssh sadm@lwheng-z.comp.nus.edu.sg'
 alias wing='ssh lwheng@wing.comp.nus.edu.sg'
-alias cte='ssh lwheng@cte.comp.nus.edu.sg'
-alias tembusu='ssh lwheng@tembusu.comp.nus.edu.sg'
 alias starwars='telnet towel.blinkenlights.nl'
 alias vlc='open -a VLC'
 alias gph='RAILS_ENV=production bundle exec rake assets:precompile && git push heroku'
