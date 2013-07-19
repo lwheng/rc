@@ -32,11 +32,10 @@ alias wing='ssh lwheng@wing.comp.nus.edu.sg'
 alias starwars='telnet towel.blinkenlights.nl'
 alias vlc='open -a VLC'
 alias gph='RAILS_ENV=production bundle exec rake assets:precompile && git push heroku'
-alias :q='exit'
-alias mediafire='~/Dropbox/scripts/mediafire.sh'
-alias adf='~/Dropbox/scripts/adfly.sh'
 alias playbook='java -Xmx512M -jar "/Users/lwheng/Downloads/Playbook_Tools/lib/BarDeploy.jar" -installApp -device 169.254.0.1 -password '
 alias portclean='sudo port -f clean --all all'
 alias portuninstall='sudo port -f uninstall inactive'
+alias subl='open -a "Sublime Text"'
+alias exit='history -c; exit'
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
