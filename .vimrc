@@ -19,3 +19,8 @@ set tabstop=2
 set ruler
 filetype plugin on
 syntax on
+
+if !exists(":DiffOrig")
+    command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
+                            \ | wincmd p | diffthis
+endif
