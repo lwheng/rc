@@ -1,7 +1,7 @@
-nmap 0 :res+5<CR>
-nmap 7 :vertical res-5<CR>
-nmap 8 :vertical res+5<CR>
-nmap 9 :res-5<CR>
+nmap <C-j> :res+5<CR>
+nmap <C-h> :vertical res-5<CR>
+nmap <C-l> :vertical res+5<CR>
+nmap <C-k> :res-5<CR>
 nmap <Tab> <C-w>w
 colorscheme default
 set expandtab
