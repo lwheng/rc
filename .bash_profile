@@ -39,3 +39,12 @@ alias subl='open -a "Sublime Text"'
 alias exit='history -c; exit'
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+##
+# Your previous /Users/lwheng/.bash_profile file was backed up as /Users/lwheng/.bash_profile.macports-saved_2013-10-30_at_23:32:12
+##
+
+# MacPorts Installer addition on 2013-10-30_at_23:32:12: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
