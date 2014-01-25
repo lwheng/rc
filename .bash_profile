@@ -12,20 +12,11 @@ PS1="\u$NO_COLOUR:\w$YELLOW\$(parse_git_branch)$NO_COLOUR \$ "
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 # this is for the Android SDK 
-export PATH=${PATH}:/Users/lwheng/Downloads/android-sdk-mac_x86/tools:/Users/lwheng/Downloads/android-sdk-mac_x86/platform-tools
 export ANDROID_HOME=/Users/lwheng/Development/adt-bundle-mac/sdk
-
-# MacPorts Installer addition on 2011-10-04_at_15:38:11: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
+export PATH=${PATH}:/Users/lwheng/Development/adt-bundle-mac/sdk/platform-tools:/Users/lwheng/Development/adt-bundle-mac/sdk/tools
 
 # For Yesod/Haskell
 export PATH="$HOME/Library/Haskell/bin:$PATH"
-
-# MacPorts Bash shell command completion
-if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
-  . /opt/local/etc/profile.d/bash_completion.sh
-fi
 
 alias slowstartup='cd /private/var/log/asl; sudo rm -rf *; cd -'
 alias wing='ssh lwheng@wing.comp.nus.edu.sg'
@@ -37,14 +28,12 @@ alias portclean='sudo port -f clean --all all'
 alias portuninstall='sudo port -f uninstall inactive'
 alias subl='open -a "Sublime Text"'
 alias exit='history -c; exit'
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
-
-##
-# Your previous /Users/lwheng/.bash_profile file was backed up as /Users/lwheng/.bash_profile.macports-saved_2013-10-30_at_23:32:12
-##
+alias mou='open -a Mou'
 
 # MacPorts Installer addition on 2013-10-30_at_23:32:12: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+source ~/.profile
