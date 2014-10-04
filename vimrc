@@ -3,7 +3,11 @@ nmap <C-h> :vertical res-5<CR>
 nmap <C-l> :vertical res+5<CR>
 nmap <C-k> :res-5<CR>
 nmap <Tab> <C-w>w
+
+syntax enable
+set background=dark
 colorscheme default
+
 set expandtab
 set hlsearch
 set list
@@ -18,7 +22,6 @@ set statusline+=%F
 set tabstop=2
 set ruler
 filetype plugin on
-syntax on
 
 if !exists(":DiffOrig")
     command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis

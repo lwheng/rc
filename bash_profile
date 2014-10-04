@@ -27,3 +27,4 @@ alias exit='history -c; exit'
 alias mou='open -a Mou'
 
 source ~/.profile
+source /Users/lwheng/.rvm/scripts/rvm
