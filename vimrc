@@ -15,6 +15,7 @@ set listchars=eol:~
 set ls=2
 set modeline
 set nocompatible
+set backspace=2
 set number
 set shiftwidth=2
 set smartindent
