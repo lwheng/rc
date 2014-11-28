@@ -20,6 +20,7 @@ set number
 set shiftwidth=2
 set smartindent
 set statusline+=%F
+set statusline+=\ x:%c,\ y:%l
 set tabstop=2
 set ruler
 filetype plugin on
