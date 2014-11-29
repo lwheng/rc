@@ -28,3 +28,12 @@ alias mou='open -a Mou'
 
 source ~/.profile
 source /Users/lwheng/.rvm/scripts/rvm
+
+##
+# Your previous /Users/lwheng/.bash_profile file was backed up as /Users/lwheng/.bash_profile.macports-saved_2014-10-18_at_10:49:19
+##
+
+# MacPorts Installer addition on 2014-10-18_at_10:49:19: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
