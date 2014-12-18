@@ -3,6 +3,7 @@ nmap <C-h> :vertical res-5<CR>
 nmap <C-l> :vertical res+5<CR>
 nmap <C-k> :res-5<CR>
 nmap <Tab> <C-w>w
+nmap <C-9> di(va(p
 
 syntax enable
 set background=dark
