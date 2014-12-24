@@ -4,6 +4,7 @@ nmap <C-l> :vertical res+5<CR>
 nmap <C-k> :res-5<CR>
 nmap <Tab> <C-w>w
 nmap <C-9> di(va(p
+nmap <ESC> :nohl<CR>
 
 colorscheme default
 filetype plugin on
