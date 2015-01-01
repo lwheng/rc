@@ -25,6 +25,7 @@ alias vlc='open -a VLC'
 alias subl='open -a "Sublime Text"'
 alias exit='history -c; exit'
 alias mou='open -a Mou'
+alias ll='ls -lah'
 
 source ~/.profile
 source /Users/lwheng/.rvm/scripts/rvm
