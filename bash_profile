@@ -39,4 +39,4 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 # Scala
-export PATH="/Users/lwheng/dev/scala/scala-2.11.7/bin:$PATH"
+export PATH="/Users/lwheng/dev/scala-2.11.7/bin:$PATH"
