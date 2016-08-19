@@ -12,12 +12,5 @@ PS1="\u$NO_COLOUR:\w$YELLOW\$(parse_git_branch)$NO_COLOUR \$ "
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
-# For Yesod/Haskell
-export PATH="$HOME/Library/Haskell/bin:$PATH"
-
 alias slowstartup='cd /private/var/log/asl; sudo rm -rf *; cd -'
-alias wing='ssh lwheng@wing.comp.nus.edu.sg'
-alias starwars='telnet towel.blinkenlights.nl'
-alias vlc='open -a VLC'
-alias exit='history -c; exit'
 alias ll='ls -lah'
