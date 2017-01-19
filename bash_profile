@@ -18,5 +18,5 @@ export PATH="/usr/local/sbin:$PATH"
 
 alias slowstartup='cd /private/var/log/asl; sudo rm -rf *; cd -'
 alias ll='ls -lah'
-alias g='grep -rn'
+alias g='grep --color -Irn'
 alias youtube-dl-audio='youtube-dl -f mp4 --extract-audio'
