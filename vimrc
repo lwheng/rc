@@ -5,7 +5,7 @@ nmap <C-k> :res-5<CR>
 nmap <Tab> <C-w>w
 nmap <C-9> di(va(p
 
-colorscheme default
+colorscheme elflord
 filetype plugin on
 set background=dark
 set backspace=2
