@@ -24,3 +24,9 @@ alias slowstartup='cd /private/var/log/asl; sudo rm -rf *; cd -'
 alias ll='ls -lah'
 alias g='grep --color -Irn'
 alias youtube-dl-audio='youtube-dl -f mp4 --extract-audio'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/lwheng/dev/google-cloud-sdk/path.bash.inc' ]; then source '/Users/lwheng/dev/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/lwheng/dev/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/lwheng/dev/google-cloud-sdk/completion.bash.inc'; fi
