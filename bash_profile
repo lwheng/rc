@@ -19,6 +19,7 @@ export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export PATH="$HOME/Library/Haskell/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/Users/lwheng/.local/bin:$PATH"
 
 alias slowstartup='cd /private/var/log/asl; sudo rm -rf *; cd -'
 alias ll='ls -lah'
