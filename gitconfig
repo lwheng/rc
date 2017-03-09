@@ -9,3 +9,6 @@ email = alpha116@gmail.com
 	prompt = false
 [alias]
 	vimdiff = difftool
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
