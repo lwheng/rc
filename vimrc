@@ -1,10 +1,12 @@
+" For split resizing
 nmap <C-j> :res+5<CR>
 nmap <C-h> :vertical res-5<CR>
 nmap <C-l> :vertical res+5<CR>
 nmap <C-k> :res-5<CR>
+
+" For jumping to previous/next split
 nmap <Tab> <C-w>w
 nmap <S-Tab> <C-w>W
-nmap <C-9> di(va(p
 
 colorscheme elflord
 filetype plugin on
