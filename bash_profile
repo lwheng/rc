@@ -7,6 +7,7 @@ export PS1="\[\033[38;5;11m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\
 export PATH="$HOME/Library/Haskell/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/Users/lwheng/.local/bin:$PATH"
+export PATH="/Users/lwheng/dev/platform-tools:$PATH"
 
 alias g='grep --color -Irn'
 alias ll='ls -lah'
