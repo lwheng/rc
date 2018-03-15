@@ -32,3 +32,7 @@ if !exists(":DiffOrig")
     command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
                             \ | wincmd p | diffthis
 endif
+
+augroup filetypedetect
+    au BufRead,BufNewFile *.elm setfiletype haskell
+augroup END
