@@ -17,7 +17,7 @@ alias g='grep --color -Irn'
 alias ll='ls -lah'
 alias lln='stat -f '"'"'%A %N'"'"' $(ls -a)'
 alias slowstartup='cd /private/var/log/asl; sudo rm -rf *; cd -'
-alias youtube-dl-audio='youtube-dl -f mp4 --extract-audio'
+alias youtube-dl-audio='youtube-dl -x --audio-format mp3'
 
 source ~/.git-completion.bash
 
