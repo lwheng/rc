@@ -8,11 +8,12 @@ set softtabstop=2
 set expandtab
 set backspace=2
 set shiftwidth=2
+set smartindent
 
 " UI Config
 set number
-set cursorline
 filetype indent on
+filetype plugin on
 set wildmenu
 set showmatch
 set ls=2
