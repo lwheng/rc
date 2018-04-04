@@ -6,7 +6,7 @@ function convert_to_mp3 () {
   ffmpeg -i $1 -acodec libmp3lame -ab 128k $2
 }
 
-export PS1="\[\e[33m\]\u\[\e[m\]@\[\e[32m\]\h\[\e[m\]\\$ "
+export PS1="\[\e[32m\]\u\[\e[m\]@\[\e[34m\]\h\[\e[m\] \[\e[33m\]\w\[\e[m\]\n$ "
 
 export PATH="$HOME/Library/Haskell/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
