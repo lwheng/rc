@@ -38,6 +38,10 @@ nmap <C-k> :res-5<CR>
 nmap <Tab> <C-w>w
 nmap <S-Tab> <C-w>W
 
+" Undo / Redo
+set undofile
+set undodir=~/.vim/undodir
+
 
 if !exists(":DiffOrig")
     command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
