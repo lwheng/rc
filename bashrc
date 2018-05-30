@@ -26,3 +26,6 @@ if [ -f '/Users/lwheng/dev/google-cloud-sdk/path.bash.inc' ]; then source '/User
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/lwheng/dev/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/lwheng/dev/google-cloud-sdk/completion.bash.inc'; fi
+
+# Golang
+export GOPATH=~/dev/go
