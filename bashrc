@@ -6,7 +6,7 @@ function convert_to_mp3 () {
   ffmpeg -i $1 -acodec libmp3lame -ab 128k $2
 }
 
-export PS1="\[\e[32m\]\u\[\e[m\]@\[\e[33m\]\h\[\e[m\] \[\e[34m\]\w\[\e[m\]\n$ "
+export PS1="\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;11m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \w\n\\$ \[$(tput sgr0)\]"
 
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=/Users/lwheng/.local/bin:$PATH
