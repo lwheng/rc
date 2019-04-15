@@ -24,3 +24,6 @@ alias youtube-dl-audio='youtube-dl -x --audio-format mp3'
 
 # Golang
 export GOPATH=~/dev/go
+
+# Flutter
+export PATH="$PATH:/Users/lwheng/dev/flutter/bin"
