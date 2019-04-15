@@ -22,11 +22,5 @@ alias youtube-dl-audio='youtube-dl -x --audio-format mp3'
 
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
-# # The next line updates PATH for the Google Cloud SDK.
-# if [ -f '/Users/lwheng/dev/google-cloud-sdk/path.bash.inc' ]; then source '/Users/lwheng/dev/google-cloud-sdk/path.bash.inc'; fi
-# 
-# # The next line enables shell command completion for gcloud.
-# if [ -f '/Users/lwheng/dev/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/lwheng/dev/google-cloud-sdk/completion.bash.inc'; fi
-
 # Golang
 export GOPATH=~/dev/go
