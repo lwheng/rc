@@ -17,8 +17,6 @@ filetype plugin on
 set wildmenu
 set showmatch
 set ls=2
-set list
-set listchars=eol:~
 set statusline+=%F
 set statusline+=\ x:%c,\ y:%l
 
