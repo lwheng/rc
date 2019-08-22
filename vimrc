@@ -38,6 +38,7 @@ nmap <S-Tab> <C-w>W
 
 " For buffer switching
 nnoremap <F5> :buffers<CR>:buffer<Space>
+nnoremap <F6> :buffers<CR>:sbuffer<Space>
 
 " Undo / Redo
 set undofile
