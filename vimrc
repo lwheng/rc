@@ -26,6 +26,7 @@ set statusline+=\ x:%c,\ y:%l
 " Searching
 set incsearch
 set hlsearch
+map <Leader>/ :nohl<CR>
 
 set nocompatible
 
