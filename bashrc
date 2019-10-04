@@ -17,6 +17,7 @@ alias ll='ls -lahFG'
 alias lln='stat -f '"'"'%A %N'"'"' $(ls -a)'
 alias slowstartup='cd /private/var/log/asl; sudo rm -rf *; cd -'
 alias youtube-dl-audio='youtube-dl -x --audio-format mp3'
+alias fc='fc -e vim'
 
 # Golang
 export GOPATH=~/dev/go
