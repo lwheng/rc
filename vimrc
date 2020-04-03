@@ -16,13 +16,17 @@ filetype indent on
 filetype plugin on
 set wildmenu
 set showmatch
-set ls=2
-set statusline+=%F
+
+" Statusline
+set laststatus=2 " Always display the statusline
+set statusline+=\ %n
+set statusline+=\ %F
 set statusline+=\ x:%c,\ y:%l
 
 " Searching
 set incsearch
 set hlsearch
+map <Leader>/ :nohl<CR>
 
 set nocompatible
 
