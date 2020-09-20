@@ -22,6 +22,7 @@ alias fcrun='fc -e -'
 
 # Golang
 export GOPATH=~/dev/go
+export GOBIN=~/dev/go/bin
 export PATH="$PATH:$GOPATH/bin"
 
 # Flutter
