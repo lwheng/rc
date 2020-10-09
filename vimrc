@@ -18,9 +18,9 @@ set wildmenu
 set showmatch
 
 " Column
-" set colorcolumn=80,120
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+set colorcolumn=80,120
+" highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+" match OverLength /\%81v.\+/
 
 " Statusline
 set laststatus=2 " Always display the statusline
