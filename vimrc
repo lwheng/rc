@@ -12,6 +12,7 @@ set smartindent
 
 " UI Config
 set number
+" set relativenumber
 filetype indent on
 filetype plugin on
 set wildmenu
