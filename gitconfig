@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-name = Low-Wee Heng
+name = Heng Low Wee
 email = alpha116@gmail.com
 [diff]
 	tool = vimdiff
@@ -14,3 +14,7 @@ email = alpha116@gmail.com
 	conflictstyle = diff3
 [pager]
 	branch = false
+[credential]
+	helper = osxkeychain
+[init]
+	defaultBranch = main
