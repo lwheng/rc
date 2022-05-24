@@ -124,3 +124,6 @@ export PATH="$PATH:$GOPATH/bin"
 
 # C++
 alias gpp='g++ -g -O0 -std=c++17 -Wall'
+
+# openjdk
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
