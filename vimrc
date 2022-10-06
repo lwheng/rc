@@ -1,6 +1,6 @@
 " Color
-colorscheme elflord
 syntax enable
+colorscheme monokai
 
 " Spaces & Tabs
 set tabstop=2
