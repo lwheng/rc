@@ -127,3 +127,5 @@ alias gpp='g++ -g -O0 -std=c++17 -Wall'
 
 # openjdk
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+[ -f "/Users/lwheng/.ghcup/env" ] && source "/Users/lwheng/.ghcup/env" # ghcup-env
