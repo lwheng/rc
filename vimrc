@@ -1,6 +1,6 @@
 " Color
 syntax enable
-colorscheme monokai
+colorscheme slate
 
 " Spaces & Tabs
 set tabstop=2
